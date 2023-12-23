@@ -1,0 +1,33 @@
+.blogContainer{
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+}
+.blogSidebar{
+    width: 200px;
+    height: 100dvh;
+    background-color: #232323;
+    padding: 20px 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #bdbdbd;
+    cursor: pointer;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.blogSidebar a{
+    width: 100%;
+    font-size: 17px;
+    font-weight: 400;
+}
+.blogSidebar a:hover{
+    border-right: 2px solid #314ac9;
+}
+.mainContainer{
+    /* padding: 40px; */
+    position: absolute;
+    margin:  20px 0 0 220px;
+    max-width: 80vw;
+}

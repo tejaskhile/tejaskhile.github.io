@@ -1,0 +1,145 @@
+.hero{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.content{
+  margin: 140px 0 0 120px;
+  z-index: 10;
+  animation: 1s slidedown;
+}
+.content span{
+  font-size: 24px;
+}
+.content h2 {
+  text-transform: uppercase;
+  font-size: 54px;
+}
+.content h5 {
+  font-size: 28px;
+  font-weight: 400;
+}
+.content p{
+  margin-top: 30px;
+  width: 500px;
+  font-weight: 400;
+  color: #e5e5e7;
+}
+
+#resume-btn{
+  margin-top: 10px;
+  border: 1px solid #5181a5;
+  outline: none;
+  background-color: transparent;
+  color: #5181a5;
+  padding: 5px 10px;
+  border-radius: 4px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+#resume-btn:hover{
+  background-color: #5181a5;
+  color: #fff;
+}
+
+.sideImages{
+  width: 30%;
+  height: 100%;
+}
+.upperPlate{
+  width: 600px;
+  height: 600px;
+  background-color: #fe556e;
+  position: absolute;
+  top: 100px;
+  right: -350px;
+  transform: rotate(150deg);
+  z-index: 2;
+}
+.lowerPlate{
+  width: 600px;
+  height: 600px;
+  background-color: #2d4f69;
+  position: absolute;
+  top: 180px;
+  right: -330px;
+  transform: rotate(150deg);
+}
+.media{
+  display: flex;
+  gap: 20px;
+}
+.social-media{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+}
+.social-media i{
+   font-size: 24px;
+   color: #fff;
+   height: 25px;
+}
+
+@keyframes slidedown {
+  from {
+    transform: translateY(-10%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 700px) {
+
+  .content{
+    margin: 140px 0 0 70px;
+    z-index: 20;
+  }
+  .content span{
+    font-size: 18px;
+  }
+  .content h2 {
+    text-transform: uppercase;
+    font-size: 46px;
+  }
+  .content h5 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .content p{
+    font-size: 14px;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .upperPlate{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 10px;
+    right: -320px;
+    z-index: 10;
+  }
+  .lowerPlate{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 180px;
+    right: -330px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .content{
+    margin: 130px 0 0 40px;
+    z-index: 20;
+    overflow-x: hidden;
+  }
+
+}
