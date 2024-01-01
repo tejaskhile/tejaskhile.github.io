@@ -80,12 +80,12 @@ nav{
         content: ">";
         margin-left: 10px;
     }
-    .menuIcon {
+    #menuIcon {
         display: block;
         width: 30px;
         align-items: center;
     }
-    .menuIcon i{
+    #menuIcon {
         font-size: 22px;
         display: flex;
         justify-content: center;
@@ -94,6 +94,10 @@ nav{
     
 
 /* } */
+
+
+
+
 
 @media screen and (max-width: 600px){
    .dropdownMenu{

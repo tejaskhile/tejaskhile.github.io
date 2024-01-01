@@ -36,16 +36,19 @@ const Navbar = () => {
             <Link to='contact' smooth={true} duration={500}>Contact</Link>
         </ul>
       </div>
-      <div className='menuIcon'>
+
+      
+      <div className='icons' >
         
-        <i className= {toggleBar ? "fa-solid fa-xmark" : "fa-solid fa-bars"}
+        <i id='menuIcon' className= {toggleBar ? "fa-solid fa-xmark" : "fa-solid fa-bars"}
          onClick={()=>{
           toggle();
           dropdownMenu();
          }}
          />
-
       </div>
+
+     
     </nav>
 
     <div className='components'>
