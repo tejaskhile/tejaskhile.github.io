@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+body, html{
+    background-color: #16191d;
+    color: #fff;
+}
+.app-components{
+    padding: 0px 300px;
+}
+
+/* Large devices (laptops/desktops, 1200px and down) */
+@media screen and (max-width: 1200px) {
+    .app-components {
+        padding: 0px 200px;
+    }
+}
+
+/* Medium devices (landscape tablets, 900px and down) */
+@media screen and (max-width: 900px) {
+    .app-components {
+        padding: 0px 10px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and down) */
+@media screen and (max-width: 600px) {
+    .app-components {
+        padding: 0px 10px;
+    }
+}
+
+/* Extra small devices (phones, 400px and down) */
+@media screen and (max-width: 400px) {
+    .app-components {
+        padding: 0px 0px;
+    }
+}

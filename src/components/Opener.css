@@ -1,0 +1,72 @@
+:root{
+    --opener-bgcolor: #222831;
+}
+
+.opener{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--opener-bgcolor);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    z-index: 999;
+    animation: slider 0.7s ease-out 1 forwards;
+    animation-delay: 2.4s;
+    position: fixed;
+}
+.opener h1{
+    height: 100px;
+    margin-top: 30px;
+    z-index: 1;
+    animation: textslider 2s ease-out 1 forwards;
+    animation-delay: .6s;
+    position: absolute;
+    top: 50%;
+    transform: translateY(100%);
+    background: transparent;
+}
+.container1{
+    width: 100%;
+    height: 45%;
+    background-color: var(--opener-bgcolor);
+    z-index: 3;
+    position: absolute;
+    top: 0;
+}
+.container2{
+    width: 100%;
+    height: 50%;
+    background-color: var(--opener-bgcolor);
+    z-index: 3;
+    position: absolute;
+    bottom: 0;
+}
+@keyframes textslider {
+
+    0%{
+        opacity: 0;
+        transform: translateY(10%);
+    }
+    30%, 60%{
+        opacity: 1;
+        transform: translateY(-70%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(-180%);
+    }
+     
+
+}
+
+@keyframes slider {
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(-100%);
+    }
+}
+

@@ -1,0 +1,59 @@
+.projectCard{
+    margin-top: 30px;
+    width: 100%;
+    padding: 20px 50px 20px 30px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+.projectCard:hover{
+    border-radius: 10px;
+    background-color: #0e0e0e;
+}
+.post-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+@keyframes appear {
+    from{
+        opacity: 0;
+        clip-path: inset(100%, 100%, 0, 0);
+    }
+    to{
+        opacity: 1;
+        clip-path: inset(0, 0, 0, 0);
+    }
+}
+.header-content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.header-content p{
+    color: #7a7a7a;
+}
+.post-header img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+    background-color: #bae8e8;
+}
+
+.link{
+    color: #cc0088;
+    margin-right: 10px;
+}
+.likebtn{
+    color: #7a7a7a;
+    font-size: 18px;
+}
+.red{
+    color: #cc0088;
+}
+.date{
+    color: #7a7a7a;
+}

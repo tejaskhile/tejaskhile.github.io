@@ -1,0 +1,17 @@
+.about{
+    width: 100%;
+    padding: 0 70px;
+}
+
+.about-me-content{
+    margin-top: 20px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 400px) {
+    .about{
+        padding: 0 30px;
+    }
+}

@@ -1,0 +1,12 @@
+.blog{
+    width: 100%;
+    padding: 0 70px; 
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+@media screen and (max-width: 400px) {
+    .blog{
+        padding: 0 20px;
+    }
+}

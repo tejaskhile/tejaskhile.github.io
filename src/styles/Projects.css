@@ -1,0 +1,15 @@
+.projects{
+    width: 100%;
+    padding: 0 70px;
+}
+.projects .project-header{
+    margin-left: 20px;
+}
+.projects p{
+    color: #ababab;
+}
+@media screen and (max-width: 400px) {
+    .projects{
+        padding: 0;
+    }
+}
