@@ -7,23 +7,23 @@ const About = () => {
       <h2>Yoo!</h2>
       <div className="about-me-content">
         <p>
-        Hello!! 👋 I'm Tejas Khile, a dedicated Full-Stack Web Developer with a passion for creating dynamic, user-focused web applications. With proficiency in both frontend and backend development, I love transforming innovative ideas into seamless, functional digital solutions.
+        Hi there! 👋 My name is Tejas Khile, and I'm a committed Full-Stack Web Developer who loves building dynamic, user-centered websites. I enjoy turning creative concepts into smooth, useful digital solutions, and I am skilled in both frontend and backend development.
         <br/>
         <br/>
         Here’s what I specialize in:
         <br/>
-        ~Crafting intuitive user interfaces with modern frameworks like React.<br/>
-        ~Developing robust and scalable backend architectures using Node.js, ExpressJS and more.<br/>
-        ~Implementing responsive designs and ensuring exceptional performance across all devices.<br/>
+        ~Creating user-friendly interfaces with contemporary frameworks such as React.<br/>
+        ~Creating scalable and reliable backend structures with ExpressJS, Node.js, and other tools.<br/>
+        ~Putting responsive designs into practice and guaranteeing top performance on all platforms.<br/>
         <br/>
-        What makes me stand out? I combine strong technical skills with a problem-solving approach, striving to write clean, efficient, and maintainable code. I’m also deeply committed to learning and staying up-to-date with the latest trends and best practices in web development.
-        <br/>
-        <br/>
-        When I’m not coding, you’ll likely find me exploring new technologies, taking on coding challenges, or relaxing with a good book or an engaging anime series (because who doesn’t love a great story?).
+        What distinguishes me? I try to produce clear, effective, and maintainable code by fusing my strong technical abilities with a problem-solving mindset. Additionally, I have a strong commitment to learning about and remaining current with the newest trends and best practices in web development.
         <br/>
         <br/>
-        Let’s team up and create something extraordinary. <br/>
-        Reach out and say "Hey!". I look forward to hearing from you!
+        You can probably find me unwinding with a nice book, experimenting with new technologies, taking on coding challenges, or an interesting anime series when I'm not coding. After all, who doesn't enjoy a good story?
+        <br/>
+        <br/>
+        Together, let's make something truly remarkable. <br/>
+        Say "Hey!" and reach out. I'm excited to hear from you!
         </p>
       </div>
     </div>
