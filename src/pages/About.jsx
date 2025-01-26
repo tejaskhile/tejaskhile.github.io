@@ -7,7 +7,7 @@ const About = () => {
       <h2>Yoo!</h2>
       <div className="about-me-content">
         <p>
-        Hello! 👋 I'm Tejas Khile, a dedicated Full-Stack Web Developer with a passion for creating dynamic, user-focused web applications. With proficiency in both frontend and backend development, I love transforming innovative ideas into seamless, functional digital solutions.
+        Hello!! 👋 I'm Tejas Khile, a dedicated Full-Stack Web Developer with a passion for creating dynamic, user-focused web applications. With proficiency in both frontend and backend development, I love transforming innovative ideas into seamless, functional digital solutions.
         <br/>
         <br/>
         Here’s what I specialize in:
