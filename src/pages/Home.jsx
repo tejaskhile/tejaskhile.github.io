@@ -4,20 +4,20 @@ import '../styles/Home.css'
 import photo from "../assets/profilelogo.png"
 // import bg from '../assets/bg.jpeg'
 import { useLocation } from 'react-router-dom'
-import Animated from '../components/Animated'
+import Animation from '../components/Animation'
 
 
 const Home = () => {
 
-  const [clicked, Setclicked] = useState(false)
+  // const [clicked, Setclicked] = useState(false)
   const location = useLocation();
 
-  const likeToggle =()=>{
-    Setclicked(!clicked);
-    setTimeout(() => {
-      Setclicked(false)
-    }, 1000);
-  }
+  // const likeToggle =()=>{
+  //   Setclicked(!clicked);
+  //   setTimeout(() => {
+  //     Setclicked(false)
+  //   }, 1000);
+  // }
 
 
   return (
@@ -25,12 +25,12 @@ const Home = () => {
       <div className="first-section">
         <div id='animation' className='bg-video'>
           {/* <img src={bg} alt="img" /> */}
-          <Animated/>
+          <Animation/>
         </div>
         <div className='photo'>
           <img src={photo} alt='' id='photo-div'></img>
-          <button className='like-btn' onClick={likeToggle}>Like <i className="fa-regular fa-heart"></i></button>
-          {clicked && <i className="like-anime fa-solid fa-heart"></i>}
+          <a className='flw-btn' href="https://www.instagram.com/tejaskhile_">Follow<i className="fa-brands fa-instagram"></i></a> 
+          {/* {clicked && <i className="like-anime fa-solid fa-heart"></i>} */}
         </div>
       </div>
 
@@ -61,8 +61,8 @@ const Home = () => {
         </div>
 
         <div className='links'>
-          <a href="https://www.instagram.com/tejaskhile_"><i class="fa-brands fa-instagram"></i></a>
-          {/* <a href="/"><i class="fa-brands fa-linkedin"></i></a> */}
+          
+          <a href="https://www.linkedin.com/in/tejas-khile-b0a45025a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
           <a href="https://github.com/tejaskhile"><i class="fa-brands fa-github"></i></a>
           <a href="https://t.me/TejasKhile"><i class="fa-brands fa-telegram"></i></a>
         </div>

@@ -21,12 +21,12 @@ export const Animated = () => {
         backgroundColor: 0x72a8f7,
         color1: 0xf79797,
         color2: 0xff4646,
-        birdSize: 3.0,
+        birdSize: 5.0,
         speedLimit: 30.00,
         separation: 200.00,
         alignment: 50.00,
         cohesion: 20.00,
-        quantity: 4.00
+        quantity: 3.00
       });
 
       return () => effect.destroy();
