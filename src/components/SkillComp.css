@@ -59,7 +59,7 @@
     color: #aaaaaa;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 576px) {
     #skill-icon{
         display: none;
     }

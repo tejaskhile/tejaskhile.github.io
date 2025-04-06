@@ -8,7 +8,7 @@
 .projects p{
     color: #ababab;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 576px) {
     .projects{
         padding: 0;
     }

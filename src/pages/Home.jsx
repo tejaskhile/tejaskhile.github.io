@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { NavLink } from 'react-router-dom'
 import '../styles/Home.css'
 import photo from "../assets/profilelogo.png"
@@ -9,16 +9,7 @@ import Animation from '../components/Animation'
 
 const Home = () => {
 
-  // const [clicked, Setclicked] = useState(false)
   const location = useLocation();
-
-  // const likeToggle =()=>{
-  //   Setclicked(!clicked);
-  //   setTimeout(() => {
-  //     Setclicked(false)
-  //   }, 1000);
-  // }
-
 
   return (
     <div className="home-content">
@@ -61,7 +52,6 @@ const Home = () => {
         </div>
 
         <div className='links'>
-          
           <a href="https://www.linkedin.com/in/tejas-khile-b0a45025a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
           <a href="https://github.com/tejaskhile"><i class="fa-brands fa-github"></i></a>
           <a href="https://t.me/TejasKhile"><i class="fa-brands fa-telegram"></i></a>
