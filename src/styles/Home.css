@@ -164,6 +164,20 @@
     color: #999999;
 }
 
+.resume-btn{
+    padding: 7px 6px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #fd24b5;
+    color: #fff;
+}
+.resume-btn:active, .resume-btn:hover{
+    background-color: #cc0088;
+}
+
 @media screen and (min-width: 768px) {
     .second-mid-section{
         display: flex;
