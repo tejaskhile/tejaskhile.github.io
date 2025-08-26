@@ -39,7 +39,7 @@ const ProjectCard = () => {
               </div>
             </div>
             <h4>{project.name}</h4>
-            <p>{project.caption}</p>
+            <p className="whitespace-pre-line">{project.caption}</p>
             <br />
             <a href={project.link}>
               <i className="link fa-solid fa-link"></i>

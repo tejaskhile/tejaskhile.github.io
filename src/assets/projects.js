@@ -1,5 +1,12 @@
 const allprojects = [
   {
+    name: "CodeDock",
+    caption:
+      "CodeDock is a full-stack, real-time collaborative code editor. Multiple users can join a room, share a unique room ID, and work together on code, files, and projects instantly. The platform supports live code editing, file management, chat, etc.",
+    link: "https://collaborative-code-editor-client-9tfy.onrender.com/",
+    date: "Aug 2025",
+  },
+  {
     name: "Rental App",
     caption:
       "StayFinder is a full-stack room rental web app that allows users to browse listings, book stays, and manage properties with a clean, user-friendly interface.",
@@ -41,6 +48,7 @@ const allprojects = [
     link: "https://music-player-gray-seven.vercel.app/",
     date: "Oct 2023",
   },
+  
 ];
 
 export default allprojects;
