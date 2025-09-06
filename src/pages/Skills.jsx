@@ -8,7 +8,7 @@ const Skills = () => {
         <SkillComp
         icon="fa-solid fa-code"
         name="Front-End Development"
-        description="Proficient in HTML5, CSS3, JavaScript (ES6+), React.js, and responsive design principles to create user-friendly, mobile-first interfaces."
+        description="Proficient in HTML5, CSS3, JavaScript (ES6+), React.js, NextJS and responsive design principles to create user-friendly, mobile-first interfaces."
         />
         <SkillComp
         icon="fa-solid fa-server"
