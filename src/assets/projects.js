@@ -1,5 +1,12 @@
 const allprojects = [
   {
+    name: "NextGen",
+    caption:
+      "NextGen – A fast, secure, and scalable full-stack app built with Next.js to power the startups of tomorrow.",
+    link: "https://nextgen-kohl.vercel.app/",
+    date: "Sept 2025",
+  },
+  {
     name: "CodeDock",
     caption:
       "CodeDock is a full-stack, real-time collaborative code editor. Multiple users can join a room, share a unique room ID, and work together on code, files, and projects instantly. The platform supports live code editing, file management, chat, etc.",
@@ -48,7 +55,6 @@ const allprojects = [
     link: "https://music-player-gray-seven.vercel.app/",
     date: "Oct 2023",
   },
-  
 ];
 
 export default allprojects;
