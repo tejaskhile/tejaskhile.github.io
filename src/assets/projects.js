@@ -37,7 +37,11 @@ const allprojects = [
   {
     name: "Codepen-project",
     caption:
+<<<<<<< HEAD
       "Built a CodePen clone with React! Live HTML, CSS, and JS editing with real-time preview. Perfecting the art of interactive coding environments.",
+=======
+      "Built a CodePen clone with React! Live HTML, CSS, and JS editing with real-time preview. Perfecting the art of interactive coding environments. #ReactJS #WebDevelopment",
+>>>>>>> 47f32a3be1845387a12140fababa71873a796a7d
     link: "https://tejaskhile.github.io/codepen-clone/",
     date: "Dec 2023",
   },
