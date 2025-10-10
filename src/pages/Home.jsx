@@ -67,7 +67,7 @@ const Home = () => {
 
         {/* Resume */}
         <div className="resume">
-          <button className="resume-btn" onClick={() => window.open("/resume1.pdf", "_blank")}>
+          <button className="resume-btn" onClick={() => window.open("/resume_10.pdf", "_blank")}>
             View Resume
           </button>
         </div>
