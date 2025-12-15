@@ -1,7 +1,22 @@
 .skills{
     width: 100%;
-    padding: 0 70px;  
+    padding: 0 70px; 
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
 }
+.skill-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+ .skill{
+    background-color: #cc0088;
+    display: inline;
+    padding: 5px;
+    border-radius: 6px;
+ }
+
 @media screen and (max-width: 576px) {
     .skills{
         padding: 0 20px;
