@@ -13,7 +13,6 @@ const Home = () => {
     <div className="home-content">
       <div className="first-section">
         <div id="animation" className="bg-video">
-          {/* <img src={bg} alt="img" /> */}
           <Animation />
         </div>
         <div className="photo">
@@ -21,7 +20,6 @@ const Home = () => {
           <a className="flw-btn" href="https://www.instagram.com/tejaskhile_">
             Follow<i className="fa-brands fa-instagram"></i>
           </a>
-          {/* {clicked && <i className="like-anime fa-solid fa-heart"></i>} */}
         </div>
       </div>
 
@@ -67,7 +65,7 @@ const Home = () => {
 
         {/* Resume */}
         <div className="resume">
-          <button className="resume-btn" onClick={() => window.open("/resume_10.pdf", "_blank")}>
+          <button className="resume-btn" onClick={() => window.open("/resume_12.pdf", "_blank")}>
             View Resume
           </button>
         </div>

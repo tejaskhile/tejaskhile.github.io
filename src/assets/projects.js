@@ -1,5 +1,12 @@
 const allprojects = [
   {
+    name: "Jobitis",
+    caption:
+      "Jobitis – A cross-platform mobile app for real-time job search built with React Native and Expo.",
+    link: "https://github.com/tejaskhile/job-portal",
+    date: "Dec 2025",
+  },
+  {
     name: "NextGen",
     caption:
       "NextGen – A fast, secure, and scalable full-stack app built with Next.js to power the startups of tomorrow.",
